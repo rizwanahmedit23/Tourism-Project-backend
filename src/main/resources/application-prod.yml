@@ -1,6 +1,7 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${PROD_DB_HOST}:$(PROD_DB_PORT}/${PROD_DB_NAME}
+#    url: mysql://${PROD_DB_USERNAME}:$(PROD_DB_PASSWORD}@${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+    url: mysql://mpff9p4yxo74isrx:vj0bdim8n9tgv4h8@mna97msstjnkkp7h.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/cdhrmop6qh5hpw27
     username: ${PROD_DB_USERNAME}
     password: ${PROD_DB_PASSWORD)
     name: spring-blog
